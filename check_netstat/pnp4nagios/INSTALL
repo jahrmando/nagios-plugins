@@ -1,0 +1,9 @@
+This plugin can be use the template default for integer values
+ 
+Configure:
+
+- Make a symbolic link to install
+
+export PNP4NAGIOS_HOME=/usr/local/pnp4nagios
+ln -s $PNP4NAGIOS_HOME/share/templates.dist/integer.php $PNP4NAGIOS_HOME/share/templates/check_netstat.php
+

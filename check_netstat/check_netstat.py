@@ -6,6 +6,8 @@
 #
 # Website: https://github.com/jahrmando
 #
+# Usage: ./check_netstat.py -w [value] -c [value]
+#
 import pynagios
 from pynagios import Plugin, Response
 import subprocess
